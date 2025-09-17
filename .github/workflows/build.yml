@@ -26,8 +26,8 @@ jobs:
         run: |
           cp quartz.config.ts quartz.layout.ts quartz
           cp -rf content/* quartz/content/
-          cp assets/icon.png quartz/static/icon.png
-          cp assets/icon.png quartz/static/og-image.png
+          cp assets/icon.png quartz/quartz/static/icon.png
+          cp assets/icon.png quartz/quartz/static/og-image.png
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
