@@ -25,7 +25,7 @@ jobs:
       - name: Apply configurations
         run: |
           cp quartz.config.ts quartz.layout.ts quartz
-          cp -rf content/* quartz/content/
+          cp -rf notes/* quartz/content/
           cp assets/icon.png quartz/quartz/static/icon.png
           cp assets/icon.png quartz/quartz/static/og-image.png
 
