@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+quartz/node_modules/
+
+# Local build output
+quartz/public/
+public/   # if you ever build outside submodule
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary editor files
+*.swp
+*.swo
+
+
+.obsidian
+.quartz-cache
+private/
+.vscode/
