@@ -1,6 +1,8 @@
-![](https://youtu.be/-UQ6OZywZ2I)
-
-### All you need to know about model context protocol - by Krish Naik
+---
+title: Model Context Protocol (MCP)
+aliases: [MCP]
+tags: [tech, ai]
+---
 
 - It's an opensource protocol by Antropic
 	- Its a protocol that defines how context and data can be communicated with AI agents
@@ -10,3 +12,6 @@
 - What MCP does is define a set of rules (protocols) for an AI agent to commnuicate (or use ) to a tool. So you just have to make sure that your code follows that protocol while communicating with the tool, the tool provide will take the responsibility to maintain the same protocol in the response.
   Eg: the weather API will have an MCP library which they maintain, so you just have to follow the same protocol to interact with the weather api.
 - Just like REST APIs who provide a way to communicate with web services, MCP provies a way for communication between AI agents and tools.
+
+## Sources 
+![YT-krish-naik](https://youtu.be/-UQ6OZywZ2I)
