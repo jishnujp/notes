@@ -1,7 +1,10 @@
 ---
-title: Asynchronous programming in Python
-aliases: [async-python]
-tags: [tech, python]
+title: Asynchronous Python
+aliases:
+  - async-python
+tags:
+  - tech
+  - python
 ---
 
 Async in Python is **cooperative, single-threaded concurrency**. One thread, one event loop many concurrent tasks.
